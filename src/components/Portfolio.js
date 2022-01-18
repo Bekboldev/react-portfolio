@@ -18,7 +18,7 @@ export default class Porfolio extends Component {
                               <img src={item.imgurl} alt=""/>
                               <h3>{item.name}</h3>
                               <p>{item.description}</p>
-                              <a target='_blank' href={item.button}><button>Watch</button></a>
+                              <a  href={item.button}><button>Watch</button></a>
                           </div>
 
                       </div>
