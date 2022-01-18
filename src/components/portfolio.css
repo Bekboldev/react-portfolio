@@ -29,8 +29,62 @@
     border: 1px outset #fff;
     border-radius: 5px ;
     padding: 10px 10px;
+
+
+}
+@media(max-width:524px) {
+    .card {
+        margin-left: 50px;
+        margin: 40px 0;
+    }
+    .card img {
+        width: 350px;
+        margin-left: 100px;
+    }
 }
 
-. {
+@media (max-width: 320px) {
+    .card img {
+        width:250px;
+        margin-left: 60px;
+    }
+    .card {
+        margin-left: 20px;
+        margin: 20px 0;
+    }
+    .card h3 {
+        margin-left: 120px;
+    }
 
+    .card p {
+        margin-left: 75px;
+    }
+
+    .card a {
+        margin-left: 120px;
+
+    }
+}
+
+@media (max-width: 375px) {
+    .card img {
+        width:250px;
+        margin-left: 60px;
+    }
+    .card {
+        margin-left: 20px;
+        margin: 20px 0;
+    }
+    .card h3 {
+        margin-left: 120px;
+    }
+
+    .card p {
+        margin-left: 75px;
+    }
+
+    .card a {
+        margin-left: 120px;
+
+    }
 }

@@ -15,7 +15,10 @@ export default class Porfolio extends Component {
                   <div className='row'>
                       <div className='port-block'>
                           <div className="card">
+                            <div className="image">
                               <img src={item.imgurl} alt=""/>
+
+                            </div>
                               <h3>{item.name}</h3>
                               <p>{item.description}</p>
                               <a  href={item.button}><button>Watch</button></a>
