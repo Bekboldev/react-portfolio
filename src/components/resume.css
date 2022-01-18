@@ -1,0 +1,16 @@
+.scills1 {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+}
+
+.row {
+    align-items: center;
+}
+
+.scills1 img {
+    height: 50px;
+    width: 50px;
+}

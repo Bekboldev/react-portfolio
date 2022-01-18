@@ -1,0 +1,36 @@
+.port-block {
+    display: flex;
+    align-items: center;
+
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-left: 250px;
+}
+
+.card p {
+    margin-left: 120px;
+}
+
+.card a {
+    margin-left: 250px;
+
+}
+
+.card {
+    margin: 40px 0;
+    margin-left: 220px;
+    align-items: center;
+    align-content: center;
+    border: 1px outset #fff;
+    border-radius: 5px ;
+    padding: 10px 10px;
+}
+
+. {
+
+}

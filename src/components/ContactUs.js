@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './qwerty.css'
 export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -6,7 +7,7 @@ export default class ContactUs extends Component {
       <section id="contact">
           <div className="row section-head">
             <div className="ten columns">
-              <p className="lead">
+              <p color='white' className="lead">
               Feel free to contact me for any work or suggestions below
               </p>
             </div>
@@ -14,9 +15,7 @@ export default class ContactUs extends Component {
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <h4>Linked in :
-                  {resumeData.linkedinId}
-                </h4>
+
               </div>
             </aside>
           </div>

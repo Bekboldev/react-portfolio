@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './portfolio.css'
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -10,20 +11,18 @@ export default class Porfolio extends Component {
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
-              return(
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img src={`${item.imgurl}`} className="item-img"/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
-                        </div>
+              return (
+                  <div className='row'>
+                      <div className='port-block'>
+                          <div className="card">
+                              <img  onClick={item.button} src={item.imgurl} alt=""/>
+                              <h3>{item.name}</h3>
+                              <p>{item.description}</p>
+                              <a target='_blank' href={item.button}><button>Watch</button></a>
+                          </div>
+
                       </div>
-                    </a>
                   </div>
-                </div>
               )
             })
           }
