@@ -15,7 +15,7 @@ export default class Porfolio extends Component {
                   <div className='row'>
                       <div className='port-block'>
                           <div className="card">
-                              <img  onClick={item.button} src={item.imgurl} alt=""/>
+                              <img src={item.imgurl} alt=""/>
                               <h3>{item.name}</h3>
                               <p>{item.description}</p>
                               <a target='_blank' href={item.button}><button>Watch</button></a>
