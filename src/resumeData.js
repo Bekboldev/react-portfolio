@@ -56,7 +56,7 @@ let resumeData = {
         "name":"Cinema",
         "description":"Convenient cinema to watch all the latest movies",
         "imgurl":"images/cinema.png",
-          "button": "https://bekbol-react-cinema.herokuapp.com/"
+          "button": "https://cinema-bekbol.vercel.app/"
       },
       {
         "name":"Todo-List",
